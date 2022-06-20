@@ -1,0 +1,104 @@
+@import "../../sass/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navbar_wrapper {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+
+  .navbar_kids_page_navigator_wrapper {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    @include flex-around;
+    .header {
+      @include flex-center;
+      width: 90%;
+      height: 100%;
+      margin: 0;
+      p {
+        height: 100%;
+        padding: 0 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        @include flex-center;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .ashley {
+        background-color: $dark-grey;
+        color: white;
+      }
+      .baby {
+        font-weight: 400;
+      }
+    }
+    .mobile_app {
+      width: 10%;
+      @include flex-center;
+      .icon {
+        font-size: 20px;
+        font-weight: lighters;
+      }
+      p {
+        font-size: 13px;
+        margin: 0 5px;
+        &:hover {
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .navbar_features {
+    width: 100%;
+    height: 40px;
+    @include flex-around;
+    color: white;
+
+    .features_items {
+      height: 100%;
+      cursor: pointer;
+      @include flex-column;
+      p {
+        display: none;
+        margin: 0;
+      }
+    }
+
+    .yellow {
+      background-color: $yellow;
+      width: 34%;
+      @include flex-center;
+      font-size: 15px;
+
+      h3 {
+        margin: 0;
+        font-weight: 500;
+      }
+    }
+    .grey {
+      background-color: $grey;
+      width: 33%;
+      @include flex-center;
+      font-size: 14px;
+
+      h3 {
+        margin: 0;
+        font-weight: 500;
+      }
+    }
+    .light-grey {
+      background-color: $extra-light-grey;
+      width: 33%;
+      @include flex-center;
+      font-size: 15px;
+      color: black;
+
+      h3 {
+        margin: 0;
+        font-weight: 500;
+      }
+    }
+  }
+}
