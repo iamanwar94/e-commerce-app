@@ -1,0 +1,57 @@
+@import "../../sass/variables.scss";
+
+.footer_wrapper {
+  width: 100%;
+  @include flex-column;
+
+  .footer_search_wrapper {
+    width: 95%;
+    border-bottom: 3px solid $extra-light-grey;
+    border-top: 3px solid $extra-light-grey;
+    padding: 30px 0;
+    margin: 30px 0;
+    @include flex-center;
+    .search_para_wrapper p {
+      font-weight: 700;
+      text-transform: capitalize;
+      color: $dark-grey;
+      margin: 0 10px;
+      @include flex-center;
+      .icon {
+        margin: 0 10px;
+        background-color: $yellow;
+        color: white;
+        width: 40px;
+        text-align: center;
+      }
+    }
+    .search_btn {
+      position: relative;
+    }
+    .search_btn input {
+      width: 380px;
+      height: 36px;
+      border: 1px solid $yellow;
+      border-radius: 4px;
+      padding: 0 20px;
+
+      &:focus {
+        outline: 0;
+      }
+
+      &::placeholder {
+        font-size: 12px;
+      }
+    }
+    .search_btn button {
+      height: 38px;
+      background-color: $yellow;
+      border: 0;
+      border-radius: 0 4px 4px 0;
+      position: absolute;
+      color: white;
+      width: 25%;
+      right: -30px;
+    }
+  }
+}

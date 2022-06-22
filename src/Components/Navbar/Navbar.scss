@@ -101,4 +101,22 @@
       }
     }
   }
+  .navbar_chat {
+    height: 40px;
+    background-color: $light-grey;
+    margin: 0;
+    @include flex-center;
+    p {
+      margin: 0px;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      text-transform: capitalize;
+      @include flex-center;
+      .icon{
+        margin: 0 10px;
+      }
+
+    }
+  }
 }

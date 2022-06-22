@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
+import { faMobileScreen, faComment } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.scss";
 import NavbarSearch from "./NavbarSearch/NavbarSearch";
+import NavbarLinks from "./NavbarLinks/NavbarLinks";
 
 const Navbar = () => {
   const [yellowHover, setYellowHover] = useState(false);
@@ -72,6 +73,15 @@ const Navbar = () => {
         </div>
       </div>
       <NavbarSearch />
+      <NavbarLinks />
+      <div className="navbar_chat">
+        <p>
+          <div className="icon">
+            <FontAwesomeIcon icon={faComment} />
+          </div>
+          chat with a personal online sales assistant
+        </p>
+      </div>
     </div>
   );
 };
