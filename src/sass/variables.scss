@@ -17,9 +17,25 @@ $open-sans: "Open Sans", sans-serif;
   justify-content: space-around;
   align-items: center;
 }
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @mixin flex-column {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@mixin flex-column-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

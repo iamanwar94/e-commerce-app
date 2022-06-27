@@ -16,7 +16,7 @@ const NavbarSearch = () => {
         <h5>Please Enter Zip Code</h5>
       </div>
       <div className="navbar_search_input">
-        <input type="text" placeholder="Search..."/>
+        <input type="text" placeholder="Search..." />
         <div className="icon">
           <FontAwesomeIcon icon={faMagnifyingGlass} />
         </div>
@@ -27,10 +27,10 @@ const NavbarSearch = () => {
         <p>Help</p>
         <p>Prequalify for Financing</p>
         <p>
-          <div className="cart_icon">
+          <span className="cart_icon">
             <FontAwesomeIcon icon={faCartShopping} />
             <button>0</button>
-          </div>
+          </span>
         </p>
       </div>
     </div>

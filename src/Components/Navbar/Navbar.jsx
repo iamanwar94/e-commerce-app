@@ -4,6 +4,7 @@ import { faMobileScreen, faComment } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.scss";
 import NavbarSearch from "./NavbarSearch/NavbarSearch";
 import NavbarLinks from "./NavbarLinks/NavbarLinks";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [yellowHover, setYellowHover] = useState(false);
@@ -44,41 +45,53 @@ const Navbar = () => {
           className="features_items yellow"
           onMouseEnter={yellowMouseEnterHandler}
           onMouseLeave={mouseDownHandler}
-          style={
-            yellowHover
-              ? { height: "80px", margiTop: "20px" }
-              : { height: "40px" }
-          }
+          // style={
+          //   yellowHover
+          //     ? { height: "80px", margiTop: "20px" }
+          //     : { height: "40px" }
+          // }
         >
           <h3>In Stock and Ready to Ship</h3>
-          <p>Shop Now</p>
+          <div className="links_div">
+            <Link to="/" className="links">
+              Shop Now
+            </Link>
+          </div>
         </div>
         <div
           className="features_items grey"
           onMouseEnter={greyMouseEnterHandler}
           onMouseLeave={mouseDownHandler}
-          style={greyHover ? { height: "80px" } : { height: "40px" }}
+          // style={greyHover ? { height: "80px" } : { height: "40px" }}
         >
           <h3>Save upto $200 on selected Dining Sets - Online Only</h3>
-          <p>Shop Now</p>
+          <div className="links_div">
+            <Link to="/" className="links">
+              Shop Now
+            </Link>
+          </div>
         </div>
         <div
           className="features_items light-grey"
           onMouseEnter={lightMouseEnterHandler}
           onMouseLeave={mouseDownHandler}
-          style={lightHover ? { height: "80px" } : { height: "40px" }}
+          // style={lightHover ? { height: "80px" } : { height: "40px" }}
         >
           <h3>Extra 10% off* Desks!</h3>
-          <p>Shop Now</p>
+          <div className="links_div">
+            <Link to="/" className="links">
+              Shop Now
+            </Link>
+          </div>
         </div>
       </div>
       <NavbarSearch />
       <NavbarLinks />
       <div className="navbar_chat">
         <p>
-          <div className="icon">
+          <span className="icon">
             <FontAwesomeIcon icon={faComment} />
-          </div>
+          </span>
           chat with a personal online sales assistant
         </p>
       </div>

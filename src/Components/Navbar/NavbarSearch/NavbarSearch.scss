@@ -30,6 +30,10 @@
       border-radius: 50px;
       border: 1px solid rgb(232, 232, 232);
       padding: 0 30px;
+
+      &:focus{
+        outline: 0;
+      }
     }
 
     .icon {
