@@ -1,0 +1,25 @@
+@import "../../sass/variables.scss";
+
+.carousal_wrapper {
+  width: 100%;
+  @include flex-column;
+  .discount_line {
+    width: 95%;
+    background-color: $red;
+    height: 40px;
+    color: white;
+    text-align: center;
+    @include flex-center;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .carousal {
+    width: 95%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px 0;
+  }
+}

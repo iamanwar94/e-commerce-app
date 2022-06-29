@@ -9,7 +9,7 @@
     @include flex-center;
 
     img {
-      height: 80px;
+      height: 75px;
       width: 144px;
     }
   }
@@ -29,35 +29,63 @@
       height: 40px;
       border-radius: 50px;
       border: 1px solid rgb(232, 232, 232);
+      color: rgb(94, 91, 91);
       padding: 0 30px;
 
-      &:focus{
+      &:focus {
         outline: 0;
+      }
+
+      &::placeholder {
+        font-size: 14px;
       }
     }
 
     .icon {
       position: absolute;
-      right: 20px;
+      right: 30px;
       bottom: 5px;
-      color: rgb(94, 91, 91);
-      font-size: 24px;
+      color: rgba(94, 91, 91, 0.712);
+      font-size: 20px;
     }
   }
   .navbar_links_wrapper {
     @include flex-around;
+
     p {
-      margin: 0 5px;
-      width: 85px;
+      margin: 0 8px;
       font-size: 14px;
+      width: 100px;
+      padding: 0 5px;
+      text-align: center;
+      .links {
+        color: black;
+        text-decoration: none;
+        height: 100%;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
-    .cart_icon {
-      @include flex-around;
-      font-size: 24px;
-      padding: 0;
-      button {
-        margin: 0;
-        width: 30px;
+
+    .icon_wrapper {
+      margin: 0 10px;
+      .cart_icon {
+        @include flex-around;
+        font-size: 20px;
+        color: rgba(94, 91, 91, 0.712);
+        padding: 0;
+        button {
+          margin: 0 10px;
+          width: 30px;
+          height: 30px;
+          padding: 0;
+          border: 0;
+          border-radius: 50%;
+          font-size: 14px;
+          font-weight: 800;
+        }
       }
     }
   }
