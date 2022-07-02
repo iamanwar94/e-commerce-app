@@ -1,0 +1,68 @@
+@import "../../sass/variables.scss";
+
+.products_wrapper {
+  width: 95%;
+  margin: auto;
+  font-family: $open-sans;
+
+  .filter_products_wrapper {
+    @include flex-between;
+    align-items: flex-start;
+    width: 100%;
+    .filters_wrapper {
+      width: 20%;
+      @include flex-column;
+
+      .filter_heading {
+        @include flex-column;
+        align-items: flex-start;
+        border-bottom: 1px solid $extra-light-grey;
+        width: 100%;
+        padding: 20px 0;
+
+        h3 {
+          font-size: 20px;
+          font-weight: bold;
+          margin: 10px 0;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .filter_cats {
+        width: 100%;
+        padding-bottom: 20px;
+
+        h4 {
+          font-size: 16px;
+          font-weight: bold;
+          height: 60px;
+          border-bottom: 1px solid $extra-light-grey;
+          @include flex-center;
+          justify-content: flex-start;
+          cursor: pointer;
+        }
+      }
+    }
+    .products_item_wrapper {
+      width: 80%;
+
+      .categories_wrapper {
+        width: 95%;
+        margin: 30px auto;
+        cursor: pointer;
+
+        img {
+          width: 100%;
+          margin: auto;
+        }
+      }
+
+      .products_cards_wrapper{
+        @include flex-between;
+        border-left: 1px solid $extra-light-grey;
+        border-top: 1px solid $extra-light-grey;
+      }
+    }
+  }
+}
