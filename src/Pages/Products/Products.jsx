@@ -2,6 +2,7 @@ import React from "react";
 import image from "./assets/image.jpg";
 import "./Products.scss";
 import ProductCard from "../../Components/ProductCard/ProductCard";
+import FilterAccordion from "../../Components/FilterAccordion/FilterAccordion";
 
 const Products = () => {
   return (
@@ -12,15 +13,17 @@ const Products = () => {
             <h3>Beds</h3>
             <p>1 - 16 of 605 products</p>
           </div>
+          <div className="filters_cat">
+            <h3>Category title</h3>
+            <p>Category List</p>
+            <p>Category List</p>
+            <p>Category List</p>
+            <p>Category List</p>
+            <p>Category List</p>
+            <p>Category List</p>
+          </div>
           <div className="filter_cats">
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
-            <h4>Dummy Text</h4>
+            <FilterAccordion />
           </div>
         </div>
         {/* filters ends here  */}
