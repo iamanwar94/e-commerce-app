@@ -18,10 +18,20 @@ $open-sans: "Open Sans", sans-serif;
   justify-content: space-around;
   align-items: center;
 }
+@mixin flex-around-start {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 @mixin flex-between {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+@mixin flex-between-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 @mixin flex-column {
   display: flex;

@@ -39,10 +39,12 @@ const NavbarSearch = () => {
           </Link>
         </p>
         <div className="icon_wrapper">
-          <span className="cart_icon">
-            <FontAwesomeIcon icon={faCartShopping} />
-            <button>0</button>
-          </span>
+          <Link to="/cart">
+            <span className="cart_icon">
+              <FontAwesomeIcon icon={faCartShopping} />
+              <button>0</button>
+            </span>
+          </Link>
         </div>
       </div>
     </div>
