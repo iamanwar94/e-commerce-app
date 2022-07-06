@@ -49,6 +49,7 @@
       }
       .chex {
         width: 70%;
+        margin: 16px 0;
         @include flex-start;
 
         label {
@@ -57,20 +58,10 @@
           padding: 0;
         }
         input {
-          height: 16px;
-          width: 16px;
-          margin-top: 3px;
+          transform: scale(1.2);
+          margin-top: 5px;
         }
       }
-
-      .age_confirm {
-        margin: 20px 0 10px 0;
-        input {
-          height: 20px;
-          width: 20px;
-        }
-      }
-
       .button {
         width: 70%;
         margin: 20px 0;
