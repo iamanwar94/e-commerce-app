@@ -1,8 +1,6 @@
 import React from "react";
 import Carousal from "../../Components/Carousal/Carousal";
 import Categories from "../../Components/Categories/Categories";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
 // import Furniture from "../Furniture/Furniture";
 import cardimage from "./assets/fur12.jpg";
 import "./Home.scss";
@@ -17,7 +15,6 @@ const Home = () => {
   };
   return (
     <div className="home_wrapper">
-      <Navbar />
       <Carousal />
       <div className="three_cards_wrapper">
         <div className="three_cards_heading">
@@ -35,7 +32,6 @@ const Home = () => {
         </div>
       </div>
       <Categories />
-      <Footer />
     </div>
   );
 };

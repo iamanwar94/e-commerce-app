@@ -3,7 +3,7 @@ import "./NavbarSearch.scss";
 import logo from "../images/Ashley-Logo-Vertical.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 const NavbarSearch = () => {
@@ -24,7 +24,7 @@ const NavbarSearch = () => {
       </div>
       <div className="navbar_links_wrapper">
         <p>
-          <Link to="/" className="links">
+          <Link to="/login" className="links">
             Login Account
           </Link>
         </p>
@@ -41,8 +41,10 @@ const NavbarSearch = () => {
         <div className="icon_wrapper">
           <Link to="/cart">
             <span className="cart_icon">
-              <FontAwesomeIcon icon={faCartShopping} />
-              <button>0</button>
+              <AiOutlineShoppingCart className="icon" />
+              <span class="badge">
+                0
+              </span>
             </span>
           </Link>
         </div>

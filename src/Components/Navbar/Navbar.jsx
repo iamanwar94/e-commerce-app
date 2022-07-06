@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileScreen, faComment } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.scss";
@@ -7,24 +7,6 @@ import NavbarLinks from "./NavbarLinks/NavbarLinks";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [yellowHover, setYellowHover] = useState(false);
-  const [greyHover, setGreyHover] = useState(false);
-  const [lightHover, setLightHover] = useState(false);
-
-  const yellowMouseEnterHandler = () => {
-    setYellowHover(true);
-  };
-  const greyMouseEnterHandler = () => {
-    setGreyHover(true);
-  };
-  const lightMouseEnterHandler = () => {
-    setLightHover(true);
-  };
-  const mouseDownHandler = () => {
-    setGreyHover(false);
-    setLightHover(false);
-    setYellowHover(false);
-  };
   return (
     <div className="navbar_wrapper">
       <div className="navbar_kids_page_navigator_wrapper">
@@ -41,16 +23,7 @@ const Navbar = () => {
       </div>
       {/* baby ends  */}
       <div className="navbar_features">
-        <div
-          className="features_items yellow"
-          onMouseEnter={yellowMouseEnterHandler}
-          onMouseLeave={mouseDownHandler}
-          // style={
-          //   yellowHover
-          //     ? { height: "80px", margiTop: "20px" }
-          //     : { height: "40px" }
-          // }
-        >
+        <div className="features_items yellow">
           <h3>In Stock and Ready to Ship</h3>
           <div className="links_div">
             <Link to="/" className="links">
@@ -58,12 +31,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div
-          className="features_items grey"
-          onMouseEnter={greyMouseEnterHandler}
-          onMouseLeave={mouseDownHandler}
-          // style={greyHover ? { height: "80px" } : { height: "40px" }}
-        >
+        <div className="features_items grey">
           <h3>Save upto $200 on selected Dining Sets - Online Only</h3>
           <div className="links_div">
             <Link to="/" className="links">
@@ -71,12 +39,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-        <div
-          className="features_items light-grey"
-          onMouseEnter={lightMouseEnterHandler}
-          onMouseLeave={mouseDownHandler}
-          // style={lightHover ? { height: "80px" } : { height: "40px" }}
-        >
+        <div className="features_items light-grey">
           <h3>Extra 10% off* Desks!</h3>
           <div className="links_div">
             <Link to="/" className="links">
@@ -94,6 +57,9 @@ const Navbar = () => {
           </span>
           chat with a personal online sales assistant
         </p>
+      </div>
+      <div className="discount_line">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, tempora
       </div>
     </div>
   );

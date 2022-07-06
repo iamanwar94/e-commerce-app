@@ -157,4 +157,16 @@
       }
     }
   }
+
+  .discount_line {
+    width: 95%;
+    background-color: $red;
+    height: 40px;
+    color: white;
+    text-align: center;
+    @include flex-center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
+  }
 }

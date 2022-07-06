@@ -7,20 +7,20 @@ const FilterAccordion = () => {
       <div className="accordion-item border-l-0 border-r-0 border-b-0 rounded-none bg-white border border-gray-200">
         <h2 className="accordion-header mb-0" id="flush-headingOne">
           <button
-            className="accordion-button
-      collapsed
-      relative
-      flex
-      items-center
-      w-full
-      py-3
-      px-2
-      text-base text-gray-800 text-left
-      bg-white
-      border-0
-      rounded-none
-      transition
-      focus:outline-none"
+            className=" accordion-button
+                        collapsed
+                        relative
+                        flex
+                        items-center
+                        w-full
+                        py-3
+                        px-2
+                        text-base text-gray-800 text-left
+                        bg-white
+                        transition
+                        focus:outline-0
+                        hover:outline-0
+                        active:outline-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#flush-collapseOne"
