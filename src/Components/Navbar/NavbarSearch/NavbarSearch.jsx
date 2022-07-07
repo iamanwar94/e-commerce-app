@@ -10,7 +10,9 @@ const NavbarSearch = () => {
   return (
     <div className="navbar_search_wrapper">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <Link to="/">
+          <img src={logo} alt="logo" />
+        </Link>
       </div>
       {/* <div className="zip">
         <p>Your closest Ashley</p>
@@ -29,7 +31,7 @@ const NavbarSearch = () => {
           </Link>
         </p>
         <p>
-          <Link to="/" className="links">
+          <Link to="/login" className="links">
             Delivery Tracking
           </Link>
         </p>
@@ -42,9 +44,7 @@ const NavbarSearch = () => {
           <Link to="/cart">
             <span className="cart_icon">
               <AiOutlineShoppingCart className="icon" />
-              <span class="badge">
-                0
-              </span>
+              <span className="badge">0</span>
             </span>
           </Link>
         </div>

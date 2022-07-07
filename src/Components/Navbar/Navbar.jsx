@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMobileScreen, faComment } from "@fortawesome/free-solid-svg-icons";
-import "./Navbar.scss";
+
 import NavbarSearch from "./NavbarSearch/NavbarSearch";
 import NavbarLinks from "./NavbarLinks/NavbarLinks";
-import { Link } from "react-router-dom";
+
+import "./Navbar.scss";
 
 const Navbar = () => {
   return (

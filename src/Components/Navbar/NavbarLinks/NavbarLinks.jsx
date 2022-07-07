@@ -12,28 +12,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -43,28 +43,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -74,28 +74,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -105,28 +105,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -136,28 +136,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -167,28 +167,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -198,28 +198,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -229,28 +229,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -260,28 +260,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -291,28 +291,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -322,28 +322,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>
@@ -353,28 +353,28 @@ const NavbarLinks = () => {
         </Link>
         <div className="dropdown">
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
           <Link to="/" className="dropdown_link">
-            Category
+            Add Category Here
           </Link>
         </div>
       </div>

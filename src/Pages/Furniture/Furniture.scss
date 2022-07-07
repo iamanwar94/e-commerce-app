@@ -3,17 +3,18 @@
 .furniture_wrapper {
   width: 100%;
   font-family: $open-sans;
-  padding: 20px;
 
   .furn_heading {
     h1 {
+      width: 95%;
+      margin: auto;
       font-size: 24px;
-      font-weight: 400;
-      margin: 0;
+      font-weight: 600;
     }
   }
   .three_cards_wrapper {
-    width: 100%;
+    width: 95%;
+    margin: auto;
     @include flex-column;
 
     .three_cards_heading {
@@ -24,7 +25,7 @@
       }
     }
     .three_cards {
-      @include flex-around;
+      @include flex-between;
 
       .three_card_item {
         width: 30%;
@@ -59,8 +60,8 @@
   }
 
   .one_card_wrapper {
-    width: 100%;
-    margin: 20px 0;
+    width: 95%;
+    margin: 20px auto;
     @include flex-center;
     background: rgb(244, 244, 244);
 
@@ -112,8 +113,8 @@
     }
   }
   .one_reverse_card_wrapper {
-    width: 100%;
-    margin: 20px 0;
+    width: 95%;
+    margin: 20px auto;
     @include flex-center;
     background: rgb(225, 237, 213);
 
@@ -165,9 +166,9 @@
     }
   }
   .four_cards_wrapper {
-    width: 100%;
     @include flex-between;
-    margin: 20px 0;
+    width: 95%;
+    margin: 20px auto;
     .four_cards_item {
       width: 22%;
       @include flex-column;
@@ -202,7 +203,8 @@
   }
 
   .big_card_wrapper {
-    width: 100%;
+    width: 95%;
+    margin: 20px auto;
     @include flex-between;
 
     .big_card_img {

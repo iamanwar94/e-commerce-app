@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./Login.scss";
 
 const Login = () => {
+  const data = { email: "", password: "", remember: false };
+  const [loginData, setLoginData] = useState(data);
+
+  const loginChangeHandler = (e) => {
+    const { name, value, checked } = e.target;
+    if (name === "email") {
+      setLoginData({ ...loginData, email: value });
+    } else if (name === "password") {
+      setLoginData({ ...loginData, password: value });
+    } else if (name === "remember") {
+      setLoginData({ ...loginData, remember: checked });
+    }
+  };
+  const loginClickHandler = () => {
+    if (!loginData.email || !loginData.password) {
+      alert("please type email and password correctly");
+    } else {
+      console.log(loginData);
+      setLoginData(data);
+    }
+  };
   return (
     <div className="login_wrapper">
       <div className="login_form_wrapper">
@@ -13,7 +34,7 @@ const Login = () => {
         <div className="login_signup">
           <div className="login_track">
             <div className="login_form">
-              <p>Returning Customers </p>
+              <p>Returning Customer</p>
               <p>
                 If you are a registered user, please enter your email and
                 password.
@@ -21,21 +42,39 @@ const Login = () => {
               <p>Required*</p>
               <div className="email input_wrapper">
                 <label htmlFor="email">Email*</label>
-                <input type="email" id="email" name="email" />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={loginData.email}
+                  onChange={loginChangeHandler}
+                />
               </div>
               <div className="password input_wrapper">
                 <label htmlFor="password">Password*</label>
-                <input type="password" id="password" name="password" />
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  value={loginData.password}
+                  onChange={loginChangeHandler}
+                />
               </div>
               <div className="button">
-                <button>login</button>
+                <button onClick={loginClickHandler}>login</button>
               </div>
               <div className="forgot">
                 <div className="forgot_password">
                   <p>Forgot Password</p>
                 </div>
                 <div className="rememberme chex">
-                  <input type="checkbox" id="offers" name="offers" />
+                  <input
+                    type="checkbox"
+                    id="remember"
+                    name="remember"
+                    onChange={loginChangeHandler}
+                    checked={loginData.remember}
+                  />
                   <label htmlFor="offers">Remember me</label>
                 </div>
               </div>

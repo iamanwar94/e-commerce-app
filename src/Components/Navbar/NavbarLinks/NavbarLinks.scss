@@ -4,7 +4,7 @@
   @include flex-around;
   border-top: 1px solid $extra-light-grey;
   border-bottom: 1px solid $extra-light-grey;
-  padding: 20px 0;
+  padding: 20px 40px;
 
   .links_wrapper {
     margin: 0;
@@ -20,12 +20,11 @@
     }
 
     .dropdown {
-      @include flex-column;
       padding: 20px;
       @include flex-column-start;
       top: 30px;
       left: -20px;
-      width: 180px;
+      width: 220px;
       border: 1px solid $xs-grey;
       box-shadow: 0 0 5px $extra-light-grey;
       position: absolute;
@@ -38,15 +37,15 @@
         &:hover {
           font-weight: 600;
           color: black;
-          height: auto;
           display: flex;
         }
       }
     }
     &:hover .dropdown,
-    &:active .dropdown {
-      height: auto;
+    &:active .dropdown,
+    &:focus .dropdown {
       display: flex;
+      @include flex-column;
     }
     .red {
       color: $red;
